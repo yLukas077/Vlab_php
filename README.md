@@ -89,7 +89,7 @@ Ele implementa um sistema de **monitoramento financeiro**, permitindo o gerencia
 ## Modelo de Entidade-Relacionamento
 
 <p align="center">  
-  <img src="./diagrama.png" alt="Modelo ERD" width="600">  
+  <img src="./diagrama.jpg" alt="Modelo ERD" width="600">  
 </p>
 
 A imagem acima representa o relacionamento das entidades Usuário, Categoria e Transação.
