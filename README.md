@@ -105,7 +105,7 @@ A imagem acima representa o relacionamento das entidades Usuário, Categoria e T
 
 ---
 
-## Configuração via Docker
+## Alguns comandos para ajudar na configuração, mas no geral é uma criação de projeto padrão Laravel 11.
 
 ### 1. Clonar o repositório  
 ```bash
@@ -136,9 +136,8 @@ docker-compose up -d
 ```
 Isso iniciará  o PostgreSQL.
 
-### 5. Acessar o container e instalar as dependências do Laravel  
+### 5. Instalar as dependências do Laravel  
 ```bash
-docker-compose exec app bash
 composer install
 php artisan key:generate
 php artisan migrate
